@@ -1,0 +1,302 @@
+{
+    "title": "mernSEC001",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 708,
+            "height": 633,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "http://localhost:3000/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "http://localhost:3000/",
+                    "title": "client"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/ALL SHOPS[role=\"button\"]"
+                ],
+                [
+                    "a:nth-of-type(2) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[2]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(2) > button"
+                ],
+                [
+                    "text/All Shops"
+                ]
+            ],
+            "offsetY": 29.5,
+            "offsetX": 51.015625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/USERS[role=\"button\"]"
+                ],
+                [
+                    "a:nth-of-type(3) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[3]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(3) > button"
+                ],
+                [
+                    "text/Users"
+                ]
+            ],
+            "offsetY": 22.25,
+            "offsetX": 50
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/SIGN UP[role=\"button\"]"
+                ],
+                [
+                    "a:nth-of-type(5) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[5]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(5) > button"
+                ],
+                [
+                    "text/Sign up"
+                ]
+            ],
+            "offsetY": 20.25,
+            "offsetX": 20.296875
+        },
+        {
+            "type": "change",
+            "value": "victory@yahoo.com",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "victory",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/SIGN IN[role=\"button\"]"
+                ],
+                [
+                    "a:nth-of-type(6) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[6]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(6) > button"
+                ],
+                [
+                    "text/Sign In"
+                ]
+            ],
+            "offsetY": 23.25,
+            "offsetX": 17.921875
+        },
+        {
+            "type": "change",
+            "value": "victory@yahoo.com",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "victory",
+            "selectors": [
+                [
+                    "aria/Password"
+                ],
+                [
+                    "#password"
+                ],
+                [
+                    "xpath///*[@id=\"password\"]"
+                ],
+                [
+                    "pierce/#password"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/SUBMIT"
+                ],
+                [
+                    "#root > div > div button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div[2]/button"
+                ],
+                [
+                    "pierce/#root > div > div button"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 9,
+            "offsetX": 51.140625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/ALL SHOPS[role=\"button\"]"
+                ],
+                [
+                    "a:nth-of-type(2) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/header/div/a[2]/button"
+                ],
+                [
+                    "pierce/a:nth-of-type(2) > button"
+                ],
+                [
+                    "text/All Shops"
+                ]
+            ],
+            "offsetY": 39.5,
+            "offsetX": 50.4375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/DogFood[role=\"heading\"]"
+                ],
+                [
+                    "a:nth-of-type(1) h2"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/ul/a[1]/div[2]/h2"
+                ],
+                [
+                    "pierce/a:nth-of-type(1) h2"
+                ],
+                [
+                    "text/DogFood"
+                ]
+            ],
+            "offsetY": 27.984375,
+            "offsetX": 41.5
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "#root > div > div > div.MuiGrid-root > div:nth-of-type(1) svg"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div[2]/div[1]/div/div[2]/span/button/svg"
+                ],
+                [
+                    "pierce/#root > div > div > div.MuiGrid-root > div:nth-of-type(1) svg"
+                ]
+            ],
+            "offsetY": 13,
+            "offsetX": 6.796875
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/CONTINUE SHOPPING[role=\"button\"]"
+                ],
+                [
+                    "#root > div > div a:nth-of-type(2) > button"
+                ],
+                [
+                    "xpath///*[@id=\"root\"]/div/div/div[2]/a[2]/button"
+                ],
+                [
+                    "pierce/#root > div > div a:nth-of-type(2) > button"
+                ],
+                [
+                    "text/Continue Shopping"
+                ]
+            ],
+            "offsetY": 8.953125,
+            "offsetX": 59.703125
+        }
+    ]
+}
